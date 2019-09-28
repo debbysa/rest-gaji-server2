@@ -6,7 +6,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
-// include router /admin
+// include router /gaji
 app.use("/", require("./routes/gajiRouter"));
 
 // start server
